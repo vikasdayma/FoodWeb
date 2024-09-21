@@ -1,0 +1,29 @@
+.animate{
+transition:ease-in-out;
+animation: animations;
+animation-duration: 1s;
+animation-iteration-count: 2s;
+}
+@keyframes animations {
+from{margin-top: 0.1rem;}
+to{margin-top: 0rem;}
+}
+.borderWhite{
+    border: 0.5px solid rgba(255,255,255,0.1);
+}
+
+.transform-origin {
+    transform-origin: center;
+  }
+
+  @keyframes e {
+    from{margin-bottom:30rem;}
+    to{margin-bottom: 0rem;}
+    
+  }
+  .ani{
+    animation: e;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    border:"2px solid black";
+  }
