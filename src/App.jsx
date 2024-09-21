@@ -8,9 +8,7 @@ function App() {
 
   return (
     <div className='ram ram '>
-   <h1>e</h1>
-   <br />
-   <br />
+   
     <Home>
 
 
